@@ -36,8 +36,7 @@ def main():
             x = 2
             y = 0
 
-        kk_rect.move_ip((x, y))
-        kk_rect.move_ip((-1, 0))
+        kk_rect.move_ip((x-1, y))
 
         x = tmr % 3200
         screen.blit(bg_img, [-x, 0])
